@@ -2,31 +2,31 @@
 
  Student Information
 
-• Name: Nethala Vinay
+ï¿½ Name: Nethala Vinay
 
-• Student ID: 24A95A0513
+ï¿½ Student ID: 24A95A0513
 
-• Repository: https://github.com/vinay-nethala/git-solved-STU013
+ï¿½ Repository: https://github.com/vinay-nethala/git-solved-24A95A0513
 
-• Date Started: 25-10-2025
+ï¿½ Date Started: 25-10-2025
 
-• Date Completed: 28-10-2025
-
-
-• Task Summary
-
-• Cloned the instructor’s repository containing multiple pre-built merge conflicts across branches (main, dev, and conflict-simulator).
-• Resolved all conflicts manually using correct Git workflows.
-• Practiced and mastered almost every major Git command through hands-on execution.
+ï¿½ Date Completed: 28-10-2025
 
 
+ï¿½ Task Summary
 
-• Commands Used
+ï¿½ Cloned the instructorï¿½s repository containing multiple pre-built merge conflicts across branches (main, dev, and conflict-simulator).
+ï¿½ Resolved all conflicts manually using correct Git workflows.
+ï¿½ Practiced and mastered almost every major Git command through hands-on execution.
+
+
+
+ï¿½ Commands Used
 
 +-------------------+-------------+-----------------------------------------------+
 | Command           | Times Used  | Purpose                                       |
 +-------------------+-------------+-----------------------------------------------+
-| git clone         | 1           | Clone instructor’s repository                 |
+| git clone         | 1           | Clone instructorï¿½s repository                 |
 | git checkout      | 20+         | Switch between branches                       |
 | git branch        | 10+         | View and manage branches                      |
 | git merge         | 2           | Merge 'dev' and 'conflict-simulator' into main|
@@ -49,169 +49,169 @@
 
 ---
 
-• Conflicts Resolved
+ï¿½ Conflicts Resolved
 
-• Merge 1: main + dev (6 Files)
+ï¿½ Merge 1: main + dev (6 Files)
 
 1. config/app-config.yaml
 
-• Issue: Port mismatch (Production: 8080, Development: 3000)
-• Resolution: Unified config supporting environment-based ports
-• Strategy: Default to production, add optional development mode
-• Difficulty: Medium
-• Time: 15 minutes
+ï¿½ Issue: Port mismatch (Production: 8080, Development: 3000)
+ï¿½ Resolution: Unified config supporting environment-based ports
+ï¿½ Strategy: Default to production, add optional development mode
+ï¿½ Difficulty: Medium
+ï¿½ Time: 15 minutes
 
 2. config/database-config.json
 
-• Issue: Different DB hosts and SSL modes
-• Resolution: Created separate profiles for both environments
-• Strategy: Structured JSON with “production” and “development” keys
-• Difficulty: Medium
-• Time: 10 minutes
+ï¿½ Issue: Different DB hosts and SSL modes
+ï¿½ Resolution: Created separate profiles for both environments
+ï¿½ Strategy: Structured JSON with ï¿½productionï¿½ and ï¿½developmentï¿½ keys
+ï¿½ Difficulty: Medium
+ï¿½ Time: 10 minutes
 
 3. scripts/deploy.sh
 
-• Issue: Conflicting deployment methods (production vs Docker)
-• Resolution: Added conditional logic based on DEPLOY_ENV
-• Strategy: Dynamic script handling both environments
-• Difficulty: Hard
-• Time: 20 minutes
+ï¿½ Issue: Conflicting deployment methods (production vs Docker)
+ï¿½ Resolution: Added conditional logic based on DEPLOY_ENV
+ï¿½ Strategy: Dynamic script handling both environments
+ï¿½ Difficulty: Hard
+ï¿½ Time: 20 minutes
 
 4. scripts/monitor.js
 
-• Issue: Different log formats and intervals
-• Resolution: Environment-based configuration object
-• Strategy: Used process.env.NODE_ENV for behavior selection
-• Difficulty: Medium
-• Time: 15 minutes
+ï¿½ Issue: Different log formats and intervals
+ï¿½ Resolution: Environment-based configuration object
+ï¿½ Strategy: Used process.env.NODE_ENV for behavior selection
+ï¿½ Difficulty: Medium
+ï¿½ Time: 15 minutes
 
 5. docs/architecture.md
 
-• Issue: Different architectural explanations
-• Resolution: Merged both into a detailed combined section
-• Strategy: Created environment-specific subsections
-• Difficulty: Easy
-• Time: 10 minutes
+ï¿½ Issue: Different architectural explanations
+ï¿½ Resolution: Merged both into a detailed combined section
+ï¿½ Strategy: Created environment-specific subsections
+ï¿½ Difficulty: Easy
+ï¿½ Time: 10 minutes
 
 6. README.md
 
-• Issue: Conflicting feature lists and version info
-• Resolution: Combined all with clear category grouping
-• Strategy: Organized features by “Core”, “Dev”, and “Prod”
-• Difficulty: Easy
-• Time: 10 minutes
+ï¿½ Issue: Conflicting feature lists and version info
+ï¿½ Resolution: Combined all with clear category grouping
+ï¿½ Strategy: Organized features by ï¿½Coreï¿½, ï¿½Devï¿½, and ï¿½Prodï¿½
+ï¿½ Difficulty: Easy
+ï¿½ Time: 10 minutes
 
 
 ---
 
-• Merge 2: main + conflict-simulator (6 Files)
+ï¿½ Merge 2: main + conflict-simulator (6 Files)
 
 1. config/security.yaml
 
-• Issue: Conflicting authentication methods
-• Resolution: Combined both by allowing JWT and OAuth modes
-• Strategy: Used environment variable to toggle between modes
-• Difficulty: Medium
-• Time: 15 minutes
+ï¿½ Issue: Conflicting authentication methods
+ï¿½ Resolution: Combined both by allowing JWT and OAuth modes
+ï¿½ Strategy: Used environment variable to toggle between modes
+ï¿½ Difficulty: Medium
+ï¿½ Time: 15 minutes
 
 2. src/api/userController.js
 
-• Issue: Different error handling logic
-• Resolution: Merged with improved try-catch and logging
-• Strategy: Integrated best parts from both sides
-• Difficulty: Hard
-• Time: 20 minutes
+ï¿½ Issue: Different error handling logic
+ï¿½ Resolution: Merged with improved try-catch and logging
+ï¿½ Strategy: Integrated best parts from both sides
+ï¿½ Difficulty: Hard
+ï¿½ Time: 20 minutes
 
 3. src/api/productController.js
 
-• Issue: Conflicting response formats
-• Resolution: Standardized JSON response structure
-• Strategy: Followed REST API best practices
-• Difficulty: Medium
-• Time: 15 minutes
+ï¿½ Issue: Conflicting response formats
+ï¿½ Resolution: Standardized JSON response structure
+ï¿½ Strategy: Followed REST API best practices
+ï¿½ Difficulty: Medium
+ï¿½ Time: 15 minutes
 
 4. utils/logger.js
 
-• Issue: Different log levels and formatting
-• Resolution: Created universal logger with configurable levels
-• Strategy: Used NODE_ENV to adjust verbosity
-• Difficulty: Medium
-• Time: 10 minutes
+ï¿½ Issue: Different log levels and formatting
+ï¿½ Resolution: Created universal logger with configurable levels
+ï¿½ Strategy: Used NODE_ENV to adjust verbosity
+ï¿½ Difficulty: Medium
+ï¿½ Time: 10 minutes
 
 5. tests/app.test.js
 
-• Issue: Different test cases for same module
-• Resolution: Combined both test sets after validation
-• Strategy: Retained all passing tests
-• Difficulty: Easy
-• Time: 10 minutes
+ï¿½ Issue: Different test cases for same module
+ï¿½ Resolution: Combined both test sets after validation
+ï¿½ Strategy: Retained all passing tests
+ï¿½ Difficulty: Easy
+ï¿½ Time: 10 minutes
 
 6. README.md
 
-• Issue: Overlapping merge notes
-• Resolution: Cleaned and documented final conflict resolution
-• Strategy: Added “Final Merge Notes” section
-• Difficulty: Easy
-• Time: 5 minutes
+ï¿½ Issue: Overlapping merge notes
+ï¿½ Resolution: Cleaned and documented final conflict resolution
+ï¿½ Strategy: Added ï¿½Final Merge Notesï¿½ section
+ï¿½ Difficulty: Easy
+ï¿½ Time: 5 minutes
 
 
 ---
 
-• Most Challenging Parts
+ï¿½ Most Challenging Parts
 
-1. • Understanding Conflict Markers
-• Initially confused by <<<<<<<, =======, and >>>>>>>.
-• Learned that HEAD represents the current branch and the other side is the incoming branch.
-
-
-2. • Choosing What to Keep
-• Reading both versions fully helped in making better merge decisions.
+1. ï¿½ Understanding Conflict Markers
+ï¿½ Initially confused by <<<<<<<, =======, and >>>>>>>.
+ï¿½ Learned that HEAD represents the current branch and the other side is the incoming branch.
 
 
-3. • Complex Script Conflicts
-• Some files had totally different logic — had to study both approaches before merging.
+2. ï¿½ Choosing What to Keep
+ï¿½ Reading both versions fully helped in making better merge decisions.
 
 
-4. • Testing After Resolution
-• Tested after each merge to ensure the code still worked properly.
+3. ï¿½ Complex Script Conflicts
+ï¿½ Some files had totally different logic ï¿½ had to study both approaches before merging.
 
 
+4. ï¿½ Testing After Resolution
+ï¿½ Tested after each merge to ensure the code still worked properly.
 
 
----
-
-• Key Learnings
-
-• Technical Skills
-
-• Learned to resolve merge conflicts confidently.
-• Understood how conflict markers work.
-• Mastered git diff, git log, and git reflog.
-• Gained confidence with advanced commands like rebase, revert, and cherry-pick.
-
-• Best Practices
-
-• Always read both sides before resolving.
-• Test code after every merge.
-• Write meaningful commit messages.
-• Use git status regularly.
-• Commit small and logical changes.
-
-• Workflow Insights
-
-• Conflicts are normal — not errors.
-• Stay calm and analyze both changes carefully.
-• When unsure, document and seek clarification.
-• Back up your work before merging (stash or new branch).
 
 
 ---
 
-• Reflection
+ï¿½ Key Learnings
 
-• This challenge completely changed how I view Git.
-• Merge conflicts are not problems — they’re opportunities to make better decisions.
-• Now, I feel confident handling conflicts and collaborating on real projects.
+ï¿½ Technical Skills
+
+ï¿½ Learned to resolve merge conflicts confidently.
+ï¿½ Understood how conflict markers work.
+ï¿½ Mastered git diff, git log, and git reflog.
+ï¿½ Gained confidence with advanced commands like rebase, revert, and cherry-pick.
+
+ï¿½ Best Practices
+
+ï¿½ Always read both sides before resolving.
+ï¿½ Test code after every merge.
+ï¿½ Write meaningful commit messages.
+ï¿½ Use git status regularly.
+ï¿½ Commit small and logical changes.
+
+ï¿½ Workflow Insights
+
+ï¿½ Conflicts are normal ï¿½ not errors.
+ï¿½ Stay calm and analyze both changes carefully.
+ï¿½ When unsure, document and seek clarification.
+ï¿½ Back up your work before merging (stash or new branch).
+
+
+---
+
+ï¿½ Reflection
+
+ï¿½ This challenge completely changed how I view Git.
+ï¿½ Merge conflicts are not problems ï¿½ theyï¿½re opportunities to make better decisions.
+ï¿½ Now, I feel confident handling conflicts and collaborating on real projects.
 
 I Learned:
 
@@ -223,4 +223,4 @@ How to maintain a clean and reliable Git workflow
 
 
 > Final Thought:
-“Conflicts don’t break your project — they build your problem-solving skills.”
+ï¿½Conflicts donï¿½t break your project ï¿½ they build your problem-solving skills.ï¿½
